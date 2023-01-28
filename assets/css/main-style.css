@@ -354,12 +354,12 @@ section {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #000000;
 }
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #4154f1;
+  color: #ffffff;
 }
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
@@ -405,9 +405,8 @@ section {
 }
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 700;
-  color: #012970;
 }
 .hero h2 {
   color: #444444;
@@ -481,117 +480,6 @@ section {
 /*--------------------------------------------------------------
 # Index Page
 --------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Promo
---------------------------------------------------------------*/
-.promo {
-  padding: 40px;
-}
-
-.promo h3 {
-  font-size: 14px;
-  font-weight: 700;
-  color: #4154f1;
-  text-transform: uppercase;
-}
-.promo h2 {
-  font-size: 44px;
-  font-weight: 700;
-  color: #000000;
-}
-.promo p {
-  margin: 15px 0 30px 0;
-  line-height: 38px;
-  font-size: 32px;
-  color: #565656;
-}
-.promo .btn-read-more {
-  height: 43px;
-  padding: 12px 12px;
-  border-radius: 12px;
-  transition: 0.5s;
-  color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
-}
-.promo .btn-read-more span {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-}
-.promo .btn-read-more i {
-  margin-left: 5px;
-  font-size: 18px;
-  transition: 0.3s;
-}
-.promo .btn-read-more:hover i {
-  transform: translateX(5px);
-}
-
-/*--------------------------------------------------------------
-# Best
---------------------------------------------------------------*/
-.best {
-  padding: 40px;
-}
-
-.best .card-left {
-  background-color: #f6f9ff;
-  padding: 40px;
-  margin-right: 20px;
-  height: 100%;
-}
-
-.best h3 {
-  font-size: 14px;
-  font-weight: 700;
-  color: #4154f1;
-  text-transform: uppercase;
-}
-.best h2 {
-  font-size: 44px;
-  font-weight: 800;
-  color: #000000;
-}
-.best p {
-  margin: 15px 0 30px 0;
-  line-height: 38px;
-  font-size: 32px;
-  color: #565656;
-}
-
-/*--------------------------------------------------------------
-# Alur
---------------------------------------------------------------*/
-.alur {
-  padding: 40px;
-}
-
-.alur .box {
-  padding: 15px;
-  text-align: center;
-  transition: 0.3s;
-  height: 100%;
-  background: #f0f3ff;
-  border-radius: 12px;
-}
-.alur .box img {
-  transition: 0.5s;
-}
-.alur .box h3 {
-  font-size: 30px;
-  color: #000000;
-  font-weight: 700;
-  margin-bottom: 18px;
-  margin-top: 18px;
-  vertical-align: middle;
-}
-.alur .box:hover {
-  box-shadow: 0px 0px 12px rgba(39, 38, 38, 0.25);
-}
-.alur .box:hover img {
-  transform: scale(1);
-}
 
 /*--------------------------------------------------------------
 # Counts
@@ -624,166 +512,6 @@ section {
   margin: 0;
   font-family: "Nunito", sans-serif;
   font-size: 14px;
-}
-
-/*--------------------------------------------------------------
-# Produks
---------------------------------------------------------------*/
-.produk {
-  padding: 40px;
-}
-
-@media (max-width: 992px) {
-  .produk {
-    padding: 0px;
-  }
-}
-.produk .nav-pills {
-  padding: 0;
-  margin: 0 auto 25px auto;
-  list-style: none;
-  text-align: center;
-  background: white;
-  border-radius: 50px;
-  padding: 2px 15px;
-}
-.produk .nav-pills li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 5px 10px 5px;
-  font-size: 14px;
-  font-weight: 550;
-  line-height: 1;
-  color: #090909;
-  margin: 0 4px 8px 4px;
-  transition: 0.3s;
-}
-.produk .nav-link {
-  background: none;
-  font-size: 15px;
-  font-weight: 600;
-  color: #090909;
-  padding: 12px 14px;
-  margin-right: 6px;
-  margin-bottom: -2px;
-  border-radius: 0;
-}
-.produk .nav-link:hover,
-.produk .nav-link.active {
-  color: #090909;
-  border-bottom: 3px solid #ff9800;
-  background: #ffffff;
-}
-
-
-.produk .card-produk {
-  background: linear-gradient(341.78deg, #FFE7C5 0%, #7CDCF0 100%);
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 12px;
-  padding: 17px;
-}
-.produk .card-produk .deskripsi-produk {
-  padding: 12px;
-  background: #FFFFFF;
-  border-radius: 12px;
-}
-.produk .card-produk .deskripsi-produk .name-produk {
-  color: #000000;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 20px;
-}
-.produk .card-produk .deskripsi-produk .detail-produk {
-  color: #565656;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  margin-top: 20px;
-}
-.produk .card-produk .deskripsi-produk .price-produk {
-  color: #000000;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 12px;
-  margin-top: 16px;
-}
-.produk .card-produk .deskripsi-produk .btn-call-me {
-  padding: 8px;
-  background: #FF9800;
-  border: 1px solid #FF9800;
-  border-radius: 12px;
-  color:#000000;
-  font-size: 14px;
-  font-weight: 700;
-}
-.produk .card-produk .deskripsi-produk .btn-call-me:hover {
-  background: #f6f9ff;
-}
-
-.produk .card-produk .fitur-produk {
-  margin-top: 17px;
-  padding: 12px;
-  background: #FFFFFF;
-  border-radius: 12px;
-}
-
-.produk .card-produk .fitur-produk .accordion-collapse {
-  border: 0;
-}
-.produk .card-produk .fitur-produk .accordion-button {
-  padding: 4px;
-  font-weight: 500;
-  border: 0;
-  font-size: 18px;
-  color: #000000;
-  text-align: left;
-}
-.produk .card-produk .fitur-produk .accordion-button:focus {
-  box-shadow: none;
-}
-.produk .card-produk .fitur-produk .accordion-button:not(.collapsed) {
-  background: none;
-  color: #000000;
-  border-bottom: 0px;
-}
-.produk .card-produk .fitur-produk .accordion-body {
-  padding: 14px 4px 4px 4px;
-  border: 0;
-}
-.produk .card-produk .fitur-produk .accordion-body .detail-fitur {
-  margin: 2px 0px 2px 0px;
-  color: #000000;
-}
-
-/* Produk Promo  */
-.produk-promo {
-  padding: 40px;
-}
-.produk-promo .title {
-  font-style: normal;
-  color: #000000;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 72px;
-}
-.produk-promo .deskripsi {
-  font-style: italic;
-  font-weight: 550;
-  font-size: 28px;
-  line-height: 32px;
-  color: #565656;
-}
-.produk-promo .card-promo {
-  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
-  overflow: hidden;
-  text-align: center;
-  border-radius: 12px;
-  background: #fff;
-  transition: 0.3s;
-}
-.produk-promo .card-promo .promo-img {
-  position: relative;
-  overflow: hidden;
 }
 
 /*--------------------------------------------------------------
@@ -2151,7 +1879,6 @@ section {
   font-size: 16px;
   font-weight: bold;
   color: #ff9800;
-  /* text-transform: uppercase; */
   position: relative;
   padding-bottom: 12px;
 }
