@@ -444,6 +444,14 @@ section {
 .hero .hero-img {
   text-align: right;
 }
+
+.hero .deskripsi-hero-testimoni {
+  margin-top: 10px;
+  font-weight: 450;
+  font-size: 18px;
+  color: #565656;
+}
+
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;

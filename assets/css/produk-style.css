@@ -51,9 +51,12 @@
 
 .produk .card-produk {
   background: linear-gradient(341.78deg, #ffe7c5 0%, #7cdcf0 100%);
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
   padding: 17px;
+}
+.produk .card-produk:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
 }
 .produk .card-produk .deskripsi-produk {
   padding: 12px;
