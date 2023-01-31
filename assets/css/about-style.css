@@ -1,0 +1,102 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+  padding: 40px;
+  margin-top: 40px;
+}
+
+@media (max-width: 992px) {
+  .about {
+    padding: 15px;
+  }
+}
+
+.about .div-right {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.about h3 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: right;
+  color: #000000;
+}
+
+.about p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: right;
+
+  color: #36373c;
+}
+
+/* Visi Misi */
+.visi-misi {
+  padding: 40px;
+}
+
+@media (max-width: 992px) {
+  .visi-misi {
+    padding: 15px;
+  }
+}
+
+.visi-misi .title {
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #ff9800;
+}
+.visi-misi .deskripsi {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: #36373c;
+}
+
+/* Day In */
+.day-in {
+  padding: 40px;
+}
+
+@media (max-width: 992px) {
+  .day-in {
+    padding: 15px;
+  }
+}
+
+/* Visit Me */
+.visit-me {
+  padding: 40px;
+}
+
+@media (max-width: 992px) {
+  .visit-me {
+    padding: 15px;
+  }
+}
+
+.visit-me iframe {
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
+  border-radius: 18px;
+}
+.visit-me .title {
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #000000;
+}
+.visit-me .address {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: #36373c;
+}
+.visit-me .address-label {
+  font-weight: bold;
+  color: #000000;
+}
